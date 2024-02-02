@@ -58,12 +58,9 @@ optional arguments:
 
 
 [comment]: <> (New options available in 2024)
-
 [comment]: <> (Name styles: auto, brandable names, evocative, short phrase, compound words, alternate spelling, non-english words, real words)
-
 [comment]: <> (randomness: low, medium, high)
-
-[comment]: <> (optional settings: blacklist words (Words, prefixes or suffixes that should not be generated (separate with commas))
+[comment]: <> (optional settings: blacklist words - Words, prefixes or suffixes that should not be generated - separate with commas)
 
 
 ## Quick Start
