@@ -1,16 +1,20 @@
 # pynamelix
 
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/pynamelix)](https://pypi.org/project/pynamelix/)
+
+Command line interface API and wrapper for [namelix.com](https://namelix.com).
+
+This library and command line interface (CLI) program can be used to generate names of businesses, websites, and more to help and inspire you!
+
 ![Demo gif](https://github.com/casychow/pynamelix/blob/master/ext/demo.gif)
 
-Command line interface API and wrapper for [namelix.com](https://namelix.com)
-
-## Table of Contents
-- [Install](#install)
+# Table of Contents
+- [Installation](#installation)
 - [Available Commands](#available-commands)
 - [Quick Start](#quick-start)
 - [To Do](#to-do)
 
-## Install
+## Installation
 From PyPi:
 ```
 pip install pynamelix
@@ -31,6 +35,10 @@ pip install .
 ## Available Commands
 To be added
 
+[comment]: <> (Name styles: auto, brandable names, evocative, short phrase, compound words, alternate spelling, non-english words, real wors)
+
+[comment]: <> (randomness: low, medium, high)
+
 ## Quick Start
 To display available commands:
 ```
@@ -43,6 +51,8 @@ python -m pynamelix -p -s wordmix -l medium python axju
 ```
 
 ## To Do
-- [ ] Insert Available Commands/Options (-h)
-- [ ] Update options
-- [ ] Export previous output to a file
+- [ ] Insert print out of Available Commands/Options (-h)
+- [ ] Update to include 2024 options
+- [ ] Export API output to a file
+
+[comment]: <> ()
