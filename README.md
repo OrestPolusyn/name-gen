@@ -94,5 +94,8 @@ NOTE: I am intending allow this program to accept multiple style and length opti
 [comment]: <> (Rename git repo on git website from [regular] to [regular-fork])
 [comment]: <> (Create new repo for [regular])
 [comment]: <> (git remote set-url origin https://github.com/casychow/[regular].git)
-[comment]: <> (git branch -M main # Told by github after new repo is created)
-[comment]: <> (git push -u origin main # Told by github after new repo is created)
+[comment]: <> (git remote -v # Verify new remote)
+
+[comment]: <> (# Told by github after new repo is created - may not need)
+[comment]: <> (git branch -M main)
+[comment]: <> (git push -u origin main)
