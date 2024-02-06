@@ -74,10 +74,25 @@ Example command to run the program using the `wordmix` option to create words of
 python -m pynamelix -p -s wordmix -l medium python axju
 ```
 
+NOTE: Only one option for the `styles` and `length` can be chosen at a time. The furthest option of a command to run the program will be used. In the following example, the style `multiword` will be chosen for word generation as it is the latest `-s` option in the command.
+```
+python -m pynamelix -p -s wordmix -s multiword -l medium python axju
+```
+
+NOTE: I am intending allow this program to accept multiple style and length options by recursively running the API to produce permutational results based on the styles and word length options chosen. There is no set date for this feature, I hope to work on this task the next time I work on this project.
+
 ## To Do
 - [x] Insert print out of Available Commands/Options (-h)
 - [ ] Update to include 2024 options (cannot be done)
 - [x] Export API output to a file
 - [ ] Recursively run API to produce outputs related to the number of styles and word length
+    - [ ] Simplify/condense the logic to run the API based on the filename or not
 
-[comment]: <> ()
+[comment]: <> (esp when the logic will be more advanced if I am supporting the permutation option)
+[comment]: <> (In order to rename this repo after forking it from the parent repo)
+[comment]: <> (git remote -v # View existing remotes)
+[comment]: <> (Rename git repo on git website from [regular] to [regular-fork])
+[comment]: <> (Create new repo for [regular])
+[comment]: <> (git remote set-url origin https://github.com/casychow/[regular].git)
+[comment]: <> (git branch -M main # Told by github after new repo is created)
+[comment]: <> (git push -u origin main # Told by github after new repo is created)
