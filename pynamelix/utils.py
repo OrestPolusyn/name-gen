@@ -1,6 +1,6 @@
 import requests
 
-NAMELIX_URL = 'https://namelix.com/app/load2.php'
+NAMELIX_URL = 'https://namelix.com/app/load13.php'
 
 def get_names(keywords, styles='brandable', lengths='short', **kwargs):
     """
